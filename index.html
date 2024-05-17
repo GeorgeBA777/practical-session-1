@@ -2,346 +2,168 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chocolate</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-        rel="stylesheet" />
-    <!-- <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    /> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/styles.css" />
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+
+    <!-- Header -->
     <header class="header">
-        <nav class="header-navigation">
-            <a href="" class="header-logo"><span class="header-logo-italic">SIMPLY</span> CHOCOLATE
-                <img src="./images/chocolate-icon.svg" class="header-logo-image" alt="logo icon" /></a>
-            <ul class="header-menu-list">
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="">Home</a>
+        <nav class="header-nav">
+            <a class="header-logo" href="./index.html">Web<span class="header-logo-color">Studio</span></a>
+            <ul class="header-list">
+                <li class="header-list-item">
+                    <a class="header-list-link" href="./index.html">Studio</a>
                 </li>
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="">How it’s made?</a>
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">Portfolio</a>
                 </li>
-                <li class="header-menu-item">
-                    <a class="header-menu-link" href="">Chocolate is loved</a>
+                <li class="header-list-item">
+                    <a class="header-list-link" href="#">Contacts</a>
                 </li>
             </ul>
         </nav>
-        <ul class="header-social-list">
-            <li class="header-social-item">
-                <a class="header-socil-link" href="" target="_blank" rel="noopener noreferrer">insta</a>
-            </li>
-            <li class="header-social-item">
-                <a class="header-socil-link" href="" target="_blank" rel="noopener noreferrer">fb</a>
-            </li>
-            <li class="header-social-item">
-                <a class="header-socil-link" href="" target="_blank" rel="noopener noreferrer">twit</a>
-            </li>
-        </ul>
-    </header>
-    <!-- header.header>(nav>(a>img)+ul>li*3>a)+ul>li*3>a -->
-    <main>
-        <section class="hero">
-            <h1 class="hero-title">
-                Treat yourself or a loved one to our finest ingredients for a moment
-                of pure delight!
-            </h1>
-            <button type="button" class="hero-btn">Buy now</button>
-            <a href="#made" class="hero-made-link">How it’s made</a>
-            <a href="" class="hero-scroll-link">scroll down</a>
-        </section>
-
-        <section class="benefits">
-            <h2 class="visually-hidden">Benefits</h2>
-            <ul class="benefits-list">
-                <li class="benefits-item">
-                    <h3 class="benefits-subtitle">Unsurpassed taste</h3>
-                    <p class="benefits-item-text">
-                        Crafted with the finest quality cocoa beans and a dedication to
-                        perfection, each bite is a decadent experience that simply cannot
-                        be matched. Savor the richness and complexity of our Unsurpassed
-                        Taste and discover a new level of chocolate bliss.
-                    </p>
+        <address class="address">
+            <ul class="address-list">
+                <li class="address-list-item">
+                    <a class="address-list-item-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
-                <li class="benefits-item">
-                    <h3 class="benefits-subtitle">Affordable price</h3>
-                    <p class="benefits-item-text">
-                        Indulge in high-quality chocolate without breaking the bank with
-                        Simply Chocolate's selection of affordable treats. Enjoy
-                        mouth-watering truffles and velvety chocolate bars without
-                        sacrificing taste or quality. Browse our selection and indulge in
-                        affordable luxury today.
-                    </p>
-                </li>
-                <li class="benefits-item">
-                    <h3 class="benefits-subtitle">Own production</h3>
-                    <p class="benefits-item-text">
-                        We take pride in our own production process, ensuring that every
-                        step is carefully crafted to perfection. From selecting the finest
-                        ingredients to handcrafting each piece, our attention to detail is
-                        evident in every bite.
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <section class="taste">
-            <h2 class="taste-title title">
-                IT ALL ADDS UP TO ONE EXCEPTIONAL
-                <span class="title-colored">TASTE</span> SENSATION
-            </h2>
-            <p class="taste-text">
-                At Simply Chocolate, we believe that the secret to exceptional
-                chocolate is in the details. From the sourcing of the finest
-                ingredients to the careful crafting of each individual piece, every
-                step of our process adds up to one exceptional taste sensation.
-            </p>
-            <ul class="taste-list">
-                <li class="taste-item">
-                    <img src="./images/taste-img-1.png" alt="MILK CHOCOLATE" width="214" height="160"
-                        class="taste-image" />
-                    <h3 class="taste-subtitle">MILK CHOCOLATE</h3>
-                </li>
-                <li class="taste-item">
-                    <img src="./images/taste-img-2.png" alt="MILK" width="214" height="160" class="taste-image" />
-                    <h3 class="taste-subtitle">MILK</h3>
-                </li>
-                <li class="taste-item">
-                    <img src="./images/taste-img-3.png" alt="NUTS" width="214" height="160" class="taste-image" />
-                    <h3 class="taste-subtitle">NUTS</h3>
-                </li>
-                <li class="taste-item">
-                    <img src="./images/taste-img-4.png" alt="SEMI - SWEET CHOCOLATE" width="214" height="160"
-                        class="taste-image" />
-                    <h3 class="taste-subtitle">SEMI - SWEET CHOCOLATE</h3>
-                </li>
-                <li class="taste-item">
-                    <img src="./images/taste-img-5.png" alt="CACAO" width="214" height="160" class="taste-image" />
-                    <h3 class="taste-subtitle">CACAO</h3>
-                </li>
-                <li class="taste-item">
-                    <img src="./images/taste-img-6.png" width="214" height="160" class="taste-image" alt="RASPBERRY" />
-                    <h3 class="taste-subtitle">RASPBERRY</h3>
-                </li>
-                <li class="taste-item">
-                    <img src="./images/taste-img-7.png" width="214" height="160" class="taste-image"
-                        alt="COCONUT OIL" />
-                    <h3 class="taste-subtitle">COCONUT OIL</h3>
-                </li>
-            </ul>
-        </section>
-        <section id="made" class="made">
-            <h2 class="made-title title">
-                hOW IT’S <span class="title-colored">made?</span>
-            </h2>
-            <img src="./images/made-img.jpeg" alt="liquid chocolate" width="600" height="400" class="made-image" />
-            <h3 class="made-subtitle">
-                Try our chocolates today and discover the perfect balance of flavor
-            </h3>
-            <ul class="made-list">
-                <li class="made-item">
-                    <p class="made-item-text">
-                        Heat the milk in a saucepan without bringing it to a boil. Add
-                        sugar and cocoa powder.
-                    </p>
-                </li>
-                <li class="made-item">
-                    <p class="made-item-text">
-                        At the same time, prepare a water bath. Melt the butter on it.
-                    </p>
-                </li>
-                <li class="made-item">
-                    <p class="made-item-text">
-                        "Mix" the milk mixture and already liquid butter. Mix thoroughly
-                        with a silicone spatula so that the mass becomes uniform and
-                        silky.
-                    </p>
-                </li>
-                <li class="made-item">
-                    <p class="made-item-text">
-                        Heat the mixture over low heat, letting it barely boil.
-                    </p>
-                </li>
-                <li class="made-item">
-                    <p class="made-item-text">
-                        Pour the chocolate into special containers (can be replaced with
-                        ice molds). Allow to cool and harden.
-                    </p>
-                </li>
-            </ul>
-        </section>
-        <section class="products">
-            <h2 class="products-title title">
-                Our <span class="title-colored">pRODUCTS</span>
-            </h2>
-            <ul class="products-list">
-                <li class="products-item">
-                    <img src="./images/products-img-1.jpeg" width="230" height="201" alt="orange "
-                        class="products-image" />
-                    <h3 class="products-subtitle">orange</h3>
-                    <p class="products-item-description">Dark chocolate</p>
-                    <button class="products-btn" type="button">66 UAH</button>
-                </li>
-                <li class="products-item">
-                    <img src="./images/products-img-2.jpeg" width="230" height="201" alt="APPLE&CRANBERRY"
-                        class="products-image" />
-                    <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
-                    <p class="products-item-description">Milk chocolate</p>
-                    <button class="products-btn" type="button">66 UAH</button>
-                </li>
-                <li class="products-item">
-                    <img src="./images/products-img-3.jpeg" width="230" height="201" alt="lime&sea salt"
-                        class="products-image" />
-                    <h3 class="products-subtitle">lime&sea salt</h3>
-                    <p class="products-item-description">Dark chocolate</p>
-                    <button class="products-btn" type="button">66 UAH</button>
-                </li>
-                <li class="products-item">
-                    <img src="./images/products-img-4.jpeg" width="230" height="201" alt="pineapple"
-                        class="products-image" />
-                    <h3 class="products-subtitle">pineapple</h3>
-                    <p class="products-item-description">Dark chocolate</p>
-                    <button class="products-btn" type="button">66 UAH</button>
-                </li>
-                <li class="products-item">
-                    <img src="./images/products-img-5.jpeg" width="230" height="201" alt="Classic"
-                        class="products-image" />
-                    <h3 class="products-subtitle">Classic</h3>
-                    <p class="products-item-description">Milk chocolate</p>
-                    <button class="products-btn" type="button"></button>
-                </li>
-                <li class="products-item">
-                    <img src="./images/products-img-6.jpeg" width="230" height="201" alt="honey"
-                        class="products-image" />
-                    <h3 class="products-subtitle">honey</h3>
-                    <p class="products-item-description">Milk chocolate</p>
-                    <button class="products-btn" type="button">66 UAH</button>
-                </li>
-                <li class="products-item">
-                    <img src="./images/products-img-7.jpeg" width="230" height="201" alt="Roasted fruits"
-                        class="products-image" />
-                    <h3 class="products-subtitle">Roasted fruits</h3>
-                    <p class="products-item-description">Dark chocolate</p>
-                    <button class="products-btn" type="button">66 UAH</button>
-                </li>
-                <li class="products-item">
-                    <img src="./images/products-img-8.jpeg" width="230" height="201" alt="Classic"
-                        class="products-image" />
-                    <h3 class="products-subtitle">Classic</h3>
-                    <p class="products-item-description">White chocolate</p>
-                    <button class="products-btn" type="button">54 UAH</button>
-                </li>
-            </ul>
-        </section>
-        <section class="sellers">
-            <h2 class="sellers-title title">
-                <span class="title-colored">tOp</span> Sellers
-            </h2>
-            <ul class="sellers-list">
-                <li class="sellers-item">
-                    <img src="./images/sellers-img-1.jpeg" width="368" height="464" alt="CHOCOLATE WITH NUTS"
-                        class="sellers-image" />
-                    <h3 class="sellers-subtitle">CHOCOLATE WITH NUTS</h3>
-                </li>
-                <li class="sellers-item">
-                    <img src="./images/sellers-img-2.jpeg" width="368" height="464" alt="CHOCOLATE WITH FRUITS"
-                        class="sellers-image" />
-                    <h3 class="sellers-subtitle">CHOCOLATE WITH FRUITS</h3>
-                </li>
-                <li class="sellers-item">
-                    <img src="./images/sellers-img-3.jpeg" width="368" height="464" alt="DARK CHOCOLATE"
-                        class="sellers-image" />
-                    <h3 class="sellers-subtitle">DARK CHOCOLATE</h3>
-                </li>
-            </ul>
-        </section>
-        <section class="reviews">
-            <h2 class="reviews-title title">
-                <span class="title-colored">chocolate</span> is loved
-            </h2>
-            <ul class="reviews-list">
-                <li class="reviews-item">
-                    <img src="./images/loved-img-1.jpeg" width="80" height="80" alt="Victoria Dobrzhanska"
-                        class="reviews-image" />
-                    <h3 class="reviews-subtitle">Victoria Dobrzhanska</h3>
-                    <p class="reviews-item-text">
-                        I love this chocolate bar. Perfect combination of light crispy
-                        wafer, covered in a thin layer chocolate.
-                    </p>
-                </li>
-                <li class="reviews-item">
-                    <img src="./images/loved-img-2.jpeg" width="80" height="80" alt="Nazar Babenko"
-                        class="reviews-image" />
-                    <h3 class="reviews-subtitle">Nazar Babenko</h3>
-                    <p class="reviews-item-text">
-                        This chocolate confection is a delight! A delight! The wafer is
-                        light and crisp, the hazelnut cream is smooth, and the chocolate
-                        is good.
-                    </p>
-                </li>
-                <li class="reviews-item">
-                    <img src="./images/loved-img-3.jpeg" width="80" height="80" alt="Olena Kampusch"
-                        class="reviews-image" />
-                    <h3 class="reviews-subtitle">Olena Kampusch</h3>
-                    <p class="reviews-item-text">
-                        Chocolate is a family favourite treat. Love the delicious smooth
-                        chocolate and the creaminess inside. The wafer is soft but
-                        crunchy.
-                    </p>
-                </li>
-            </ul>
-            <button type="button" class="reviews-btn">Leave a review</button>
-        </section>
-    </main>
-    <footer class="footer">
-        <p class="footer-title">
-            <span class="title-colored">Chocolate</span> a delicious cure for a bad
-            day
-        </p>
-        <p class="footer-subtitle">Social networks</p>
-        <ul class="footer-social-list">
-            <li class="footer-social-item">
-                <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer">insta</a>
-            </li>
-            <li class="footer-social-item">
-                <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer">fb</a>
-            </li>
-            <li class="footer-social-item">
-                <a class="footer-social-link" href="" target="_blank" rel="noopener noreferrer">twit</a>
-            </li>
-        </ul>
-        <p class="footer-subtitle">Contact us</p>
-        <address class="footer-address">
-            <ul class="footer-address-list">
-                <li class="footer-address-item">
-                    <a class="footer-address-link" href="tel:+380684439426">+380 (68) 443-94-26</a>
-                </li>
-                <li class="footer-address-item">
-                    <a class="footer-address-link" href="mailto:simplychoc@gmail.com">simplychoc@gmail.com</a>
+                <li class="address-list-item">
+                    <a class="address-list-item-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
         </address>
-        <nav class="footer-navigation">
-            <ul class="footer-menu-list">
-                <li class="footer-menu-item">
-                    <a class="footer-menu-link" href="">Home</a>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Section 1 -->
+        <section class="hero">
+            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <a href="#" class="button">Order Service</a>
+        </section>
+
+        <!-- Section 2 -->
+        <section class="benefits">
+            <h2 class="visually-hidden">Business List</h2>
+            <ul class="benefits-list">
+                <li class="benefits-list-item">
+                    <h3 class="benefits-list-title">Strategy</h3>
+                    <p class="benefits-list-par">
+                        Our goal is to identify the business problem to walk away with the perfect and creative
+                        solution.
+                    </p>
                 </li>
-                <li class="footer-menu-item">
-                    <a class="footer-menu-link" href="">How it’s made?</a>
+                <li class="benefits-list-item">
+                    <h3 class="benefits-list-title">Punctuality</h3>
+                    <p class="benefits-list-par">
+                        Bring the key message to the brand's audience for the best price within the shortest possible
+                        time.
+                    </p>
                 </li>
-                <li class="footer-menu-item">
-                    <a class="footer-menu-link" href="">Chocolate is loved</a>
+                <li class="benefits-list-item">
+                    <h3 class="benefits-list-title">Diligence</h3>
+                    <p class="benefits-list-par">
+                        Research and confirm brands that present the strongest digital growth opportunities and minimize
+                        risk.
+                    </p>
+                </li>
+                <li class="benefits-list-item">
+                    <h3 class="benefits-list-title">Technologies</h3>
+                    <p class="benefits-list-par">
+                        Design practice focused on digital experiences. We bring forth a deep passion for
+                        problem-solving.
+                    </p>
                 </li>
             </ul>
-        </nav>
+        </section>
+
+        <!-- Section 3 -->
+        <section class="team">
+            <h2 class="team-title">Our Team</h2>
+            <ul class="team-list">
+                <li class="team-list-item">
+                    <img src="./images/mark.jpg" alt="Mark Guerrero" width="264" height="260" class="team-img">
+                    <h3 class="team-list-title">Mark Guerrero</h3>
+                    <p class="team-list-par">Product Designer</p>
+                </li>
+                <li class="team-list-item">
+                    <img src="./images/tom.jpg" alt="Tom Ford" width="264" height="260" class="team-img">
+                    <h3 class="team-list-title">Tom Ford</h3>
+                    <p class="team-list-par">Frontend Developer</p>
+                </li>
+                <li class="team-list-item">
+                    <img src="./images/camila.jpg" alt="Camila Garcia" width="264" height="260" class="team-img">
+                    <h3 class="team-list-title">Camila Garcia</h3>
+                    <p class="team-list-par">Marketing</p>
+                </li>
+                <li class="team-list-item">
+                    <img src="./images/daniel.jpg" alt="Daniel Wilson" width="264" height="260" class="team-img">
+                    <h3 class="team-list-title">Daniel Wilson</h3>
+                    <p class="team-list-par">UI Designer</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section 4 -->
+        <section class="portfolio">
+            <h2 class="portfolio-title">Our Portfolio</h2>
+            <ul class="portfolio-list">
+                <li class="portfolio-list-item">
+                    <img src="./images/banking.jpg" alt="Banking App" width="360" height="300" class="portfolio-img">
+                    <h3 class="portfolio-list-title">Banking App</h3>
+                    <p class="portfolio-list-par">App</p>
+                </li>
+                <li class="portfolio-list-item">
+                    <img src="./images/cashless.jpg" alt="Cashless Payment" width="360" height="300"
+                        class="portfolio-img">
+                    <h3 class="portfolio-list-title">Cashless Payment</h3>
+                    <p class="portfolio-list-par">Marketing</p>
+                </li>
+                <li class="portfolio-list-item">
+                    <img src="./images/meditation.jpg" alt="Meditation App" width="360" height="300"
+                        class="portfolio-img">
+                    <h3 class="portfolio-list-title">Meditation App</h3>
+                    <p class="portfolio-list-par">App</p>
+                </li>
+                <li class="portfolio-list-item">
+                    <img src="./images/service.jpg" alt="Taxi Service" width="360" height="300" class="portfolio-img">
+                    <h3 class="portfolio-list-title">Taxi Service</h3>
+                    <p class="portfolio-list-par">Marketing</p>
+                </li>
+                <li class="portfolio-list-item">
+                    <img src="./images/illustrations.jpg" alt="Screen Illustrations" width="360" height="300"
+                        class="portfolio-img">
+                    <h3 class="portfolio-list-title">Screen Illustrations</h3>
+                    <p class="portfolio-list-par">Design</p>
+                </li>
+                <li class="portfolio-list-item">
+                    <img src="./images/courses.jpg" alt="Online Courses" width="360" height="300" class="portfolio-img">
+                    <h3 class="portfolio-list-title">Online Courses</h3>
+                    <p class="portfolio-list-par">Marketing</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a class="logo-footer" href="./index.html">Web<span class="logo-footer-color">Studio</span></a>
+        <p class="footer-par">
+            Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+        </p>
     </footer>
 </body>
 
